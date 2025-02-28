@@ -1,7 +1,75 @@
 @import "tailwindcss";
 
-/*-- npx @tailwindcss/cli -i ./static/css/input.css -o ./static/css/output.css --watch --*/
+/*- npx @tailwindcss/cli -i ./static/css/input.css -o ./static/css/output.css --watch -*/
 
 @theme {
-    --color-Azul:#48e;
+
+    /*- Colores -*/
+    --color-dominos_blue:#006491;
+    --color-dominos_red:#e31837;
+    
+    --color-bg_light:#ffffff;
+    --color-bg_dark:#1a1a1a;
+
+    --color-alternative_light:#f3f3f3;
+    --color-alternative_dark:#292d32;
+
+    --color-card_light:#ffffff;
+    --color-card_light:#292d32;
+
+    --color-input_light:#ffffff;
+    --color-input_dark:#292d32;
+
+    --color-border_light:#c7c7c7;
+    --color-border_dark:#3e4349;
+
+    --color-placeholder_light:#a5a5a5;
+    --color-placeholder_dark:#6c6f73;
+
+    --color-hover_light:#e0e0e0;
+    --color-hover_dark:#3e4349;
+
+    --color-focus_light:#006491;
+    --color-focus_dark:#0090ff;
+
+    --color-primary_button_light:#006491;
+    --color-primary_button_dark:#0090ff;
+
+    --color-hover_primary_button_light:#004f74;
+    --color-hover_primary_button_dark:#0077cc;
+
+    --color-active_primary_button_light:#003d5a;
+    --color-active_primary_button_dark:#005daa;
+
+
+    --color-secondary_button_light:#e31837;
+    --color-secondary_button_dark:#e31837;
+
+    --color-hover_secondary_button_light:#bf142c;
+    --color-hover_secondary_button_dark:#bf142c;
+
+    --color-active_secondary_button_light:#8f0f21;
+    --color-active_secondary_button_dark:#8f0f21;
+
+
+    --color-disabled_button:#4f4f4f;
+
+    --color-text_light:#1a1a1a;
+    --color-text_dark:#eaeaea;
+
+    --color-secondary_text_light:#404040;
+    --color-secondary_text_dark:#a5a5a5;
+
+    --color-input_text_light:#333333;
+    --color-input_text_dark:#d4d4d4;
+
+    --color-placeholder_text_light:#a5a5a5;
+    --color-placeholder_text_dark:#6c6f73;
+
+    /*- Breackpoints -*/
+    --breakpoint-mobile: 480px;
+    --breakpoint-mobile2: 768px;
+    --breakpoint-tablet: 1024px;
+    --breakpoint-laptop: 1280px;
+    --breakpoint-desktop: 1920px;
 }
